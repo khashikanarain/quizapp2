@@ -14,6 +14,7 @@
 		CEF008142C2D164F00DAACFC /* quizappTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF008132C2D164F00DAACFC /* quizappTests.swift */; };
 		CEF0081E2C2D164F00DAACFC /* quizappUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF0081D2C2D164F00DAACFC /* quizappUITests.swift */; };
 		CEF008202C2D164F00DAACFC /* quizappUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF0081F2C2D164F00DAACFC /* quizappUITestsLaunchTests.swift */; };
+		CEF0082F2C2D16B200DAACFC /* ResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF0082E2C2D16B200DAACFC /* ResultView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		CEF008192C2D164F00DAACFC /* quizappUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = quizappUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEF0081D2C2D164F00DAACFC /* quizappUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = quizappUITests.swift; sourceTree = "<group>"; };
 		CEF0081F2C2D164F00DAACFC /* quizappUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = quizappUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CEF0082E2C2D16B200DAACFC /* ResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				CEF008022C2D164B00DAACFC /* quizappApp.swift */,
 				CEF008042C2D164B00DAACFC /* ContentView.swift */,
+				CEF0082E2C2D16B200DAACFC /* ResultView.swift */,
 				CEF008062C2D164F00DAACFC /* Assets.xcassets */,
 				CEF008082C2D164F00DAACFC /* Preview Content */,
 			);
@@ -258,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CEF008052C2D164B00DAACFC /* ContentView.swift in Sources */,
+				CEF0082F2C2D16B200DAACFC /* ResultView.swift in Sources */,
 				CEF008032C2D164B00DAACFC /* quizappApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
